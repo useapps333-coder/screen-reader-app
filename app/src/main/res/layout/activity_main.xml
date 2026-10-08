@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#0F172A">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auto Screen Reader"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#F8FAFC" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="অ্যাক্সেসিবিলিটি ভয়েস অ্যাসিস্ট্যান্ট কন্ট্রোল"
+        android:textSize="14sp"
+        android:textColor="#94A3B8"
+        android:layout_marginBottom="24dp" />
+
+    <!-- স্ট্যাটাস কার্ড -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#1E293B"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/tv_service_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="অবস্থা: পরীক্ষা করা হচ্ছে..."
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#F59E0B" />
+            
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="স্ক্রিনের উপাদান পড়তে অবশ্যই সেটিংস থেকে সার্ভিসটি চালু করতে হবে।"
+            android:textSize="12sp"
+            android:textColor="#CBD5E1"
+            android:layout_marginTop="6dp" />
+    </LinearLayout>
+
+    <!-- বাটনসমূহ -->
+    <Button
+        android:id="@+id/btn_enable_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="অ্যাক্সেসিবিলিটি সার্ভিস চালু করুন"
+        android:backgroundTint="#0D9488"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btn_restricted_fix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="সীমাবদ্ধ সেটিং সমাধান (Android 13/14 Fix)"
+        android:backgroundTint="#F59E0B"
+        android:textColor="#0F172A"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btn_overlay_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ফ্লোটিং বাটন পারমিশন দিন"
+        android:backgroundTint="#334155"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btn_test_tts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ভয়েস টেস্ট করুন (TTS Voice Test)"
+        android:backgroundTint="#475569"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

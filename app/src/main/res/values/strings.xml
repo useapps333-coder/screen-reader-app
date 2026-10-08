@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Auto Screen Reader</string>
+    <string name="accessibility_service_description">Auto Screen Reader আপনার ফোনের স্ক্রিনের টেক্সট ও উপাদানগুলো স্বয়ংক্রিয়ভাবে বা ট্যাপ করার মাধ্যমে স্পষ্ট বাংলা ও ইংরেজি কণ্ঠে পড়ে শোনায়। এটি দৃষ্টিপ্রতিবন্ধী ও পড়ার সুবিধার্থে তৈরি।</string>
+</resources>
